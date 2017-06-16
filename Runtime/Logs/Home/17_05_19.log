@@ -1,0 +1,192 @@
+[ 2017-05-19T02:09:34+08:00 ] 103.242.202.196 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 71 行.
+NOTIC: [8] Undefined index: order /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 166 行.
+NOTIC: [8] Undefined index: cid /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 167 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 170 行.
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 178 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `zml_ad` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zml_ad` WHERE ( type =1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zml_item` [ RunTime:0.0013s ]
+NOTIC: [2] Illegal string offset 'a.isdel' /home/wwwroot/zhongchou.com/App/User/Model/ItemModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `zml_item` [ RunTime:0.0012s ]
+SQL: SELECT a.*,a.id as id,c.id as cid,c.name as progress_name,d.uin,d.name as user_name,d.header as user_header,e.id as eid,e.name as category_name FROM zml_item as a LEFT JOIN zml_item_progress as c ON a.progress = c.id LEFT JOIN zml_user as d ON a.uin = d.uin LEFT JOIN zml_item_category as e ON a.cid = e.id  WHERE ( a.status =1 AND a.progress =1 AND a.end_time >1495130974 AND a.isdel = 0 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2017-05-19T02:20:48+08:00 ] 111.20.248.74 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 71 行.
+NOTIC: [8] Undefined index: order /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 166 行.
+NOTIC: [8] Undefined index: cid /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 167 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 170 行.
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 178 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `zml_ad` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `zml_ad` WHERE ( type =1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zml_item` [ RunTime:0.0015s ]
+NOTIC: [2] Illegal string offset 'a.isdel' /home/wwwroot/zhongchou.com/App/User/Model/ItemModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `zml_item` [ RunTime:0.0012s ]
+SQL: SELECT a.*,a.id as id,c.id as cid,c.name as progress_name,d.uin,d.name as user_name,d.header as user_header,e.id as eid,e.name as category_name FROM zml_item as a LEFT JOIN zml_item_progress as c ON a.progress = c.id LEFT JOIN zml_user as d ON a.uin = d.uin LEFT JOIN zml_item_category as e ON a.cid = e.id  WHERE ( a.status =1 AND a.progress =1 AND a.end_time >1495131648 AND a.isdel = 0 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2017-05-19T14:09:02+08:00 ] 103.242.202.196 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 71 行.
+NOTIC: [8] Undefined index: order /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 166 行.
+NOTIC: [8] Undefined index: cid /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 167 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 170 行.
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 178 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `zml_ad` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zml_ad` WHERE ( type =1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zml_item` [ RunTime:0.0012s ]
+NOTIC: [2] Illegal string offset 'a.isdel' /home/wwwroot/zhongchou.com/App/User/Model/ItemModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `zml_item` [ RunTime:0.0013s ]
+SQL: SELECT a.*,a.id as id,c.id as cid,c.name as progress_name,d.uin,d.name as user_name,d.header as user_header,e.id as eid,e.name as category_name FROM zml_item as a LEFT JOIN zml_item_progress as c ON a.progress = c.id LEFT JOIN zml_user as d ON a.uin = d.uin LEFT JOIN zml_item_category as e ON a.cid = e.id  WHERE ( a.status =1 AND a.progress =1 AND a.end_time >1495174142 AND a.isdel = 0 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2017-05-19T18:07:32+08:00 ] 34.248.121.188 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 71 行.
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 92 行.
+NOTIC: [8] Undefined index: cid /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 167 行.
+NOTIC: [8] Undefined index: end /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 168 行.
+NOTIC: [8] Undefined index: progress /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 169 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 170 行.
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 178 行.
+NOTIC: [8] Undefined index: order /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 166 行.
+NOTIC: [8] Undefined index: cid /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 167 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 170 行.
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 178 行.
+NOTIC: [8] Undefined index: num /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 133 行.
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 140 行.
+NOTIC: [8] Undefined variable: limit /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 153 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `zml_ad` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zml_ad` WHERE ( type =1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zml_item` [ RunTime:0.0012s ]
+NOTIC: [2] Illegal string offset 'a.isdel' /home/wwwroot/zhongchou.com/App/User/Model/ItemModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `zml_item` [ RunTime:0.0012s ]
+SQL: SELECT a.*,a.id as id,c.id as cid,c.name as progress_name,d.uin,d.name as user_name,d.header as user_header,e.id as eid,e.name as category_name FROM zml_item as a LEFT JOIN zml_item_progress as c ON a.progress = c.id LEFT JOIN zml_user as d ON a.uin = d.uin LEFT JOIN zml_item_category as e ON a.cid = e.id  WHERE ( a.status =1 AND a.isdel = 0 ) ORDER BY time desc LIMIT 2   [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `zml_item_with_order` [ RunTime:0.0012s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemWithOrderModel::countMoney(), called in /home/wwwroot/zhongchou.com/App/User/Model/ItemWithOrderModel.class.php on line 66 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemWithOrderModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: uin /home/wwwroot/zhongchou.com/App/User/Model/ItemWithOrderModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `zml_item_with_order` [ RunTime:0.0010s ]
+SQL: SELECT SUM(a.money) AS tp_sum FROM zml_item_with_order as a WHERE a.itemid = '2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zml_item` [ RunTime:0.0012s ]
+SQL: SELECT `raising_money` FROM `zml_item` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemWithOrderModel::countMoney(), called in /home/wwwroot/zhongchou.com/Runtime/Cache/Home/9caf0bb0a4ec33bc3ac62eb05fc12f83.php on line 177 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemWithOrderModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: uin /home/wwwroot/zhongchou.com/App/User/Model/ItemWithOrderModel.class.php 第 53 行.
+SQL: SELECT SUM(a.money) AS tp_sum FROM zml_item_with_order as a WHERE a.itemid = '2' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemWithOrderModel::countMoney(), called in /home/wwwroot/zhongchou.com/App/User/Model/ItemWithOrderModel.class.php on line 66 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemWithOrderModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: uin /home/wwwroot/zhongchou.com/App/User/Model/ItemWithOrderModel.class.php 第 53 行.
+SQL: SELECT SUM(a.money) AS tp_sum FROM zml_item_with_order as a WHERE a.itemid = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `raising_money` FROM `zml_item` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemWithOrderModel::countMoney(), called in /home/wwwroot/zhongchou.com/Runtime/Cache/Home/9caf0bb0a4ec33bc3ac62eb05fc12f83.php on line 177 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemWithOrderModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: uin /home/wwwroot/zhongchou.com/App/User/Model/ItemWithOrderModel.class.php 第 53 行.
+SQL: SELECT SUM(a.money) AS tp_sum FROM zml_item_with_order as a WHERE a.itemid = '1' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'a.isdel' /home/wwwroot/zhongchou.com/App/User/Model/ItemModel.class.php 第 46 行.
+SQL: SELECT a.*,a.id as id,c.id as cid,c.name as progress_name,d.uin,d.name as user_name,d.header as user_header,e.id as eid,e.name as category_name FROM zml_item as a LEFT JOIN zml_item_progress as c ON a.progress = c.id LEFT JOIN zml_user as d ON a.uin = d.uin LEFT JOIN zml_item_category as e ON a.cid = e.id  WHERE ( a.status =1 AND a.progress =1 AND a.end_time >1495188452 AND a.isdel = 0 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `zml_news` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `zml_news` [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.name as cname FROM zml_news a LEFT JOIN zml_news_category b ON a.cid=b.id   WHERE ( a.status =1 AND a.cid In(4) ) ORDER BY a.time desc LIMIT 10   [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `zml_nav` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `zml_nav` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zml_nav` WHERE ( status =1 AND type =2 AND pid =0 ) ORDER BY time desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 1 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 3 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 5 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 7 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 8 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 9 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+
+[ 2017-05-19T20:20:11+08:00 ] 111.20.248.74 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 71 行.
+NOTIC: [8] Undefined index: order /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 166 行.
+NOTIC: [8] Undefined index: cid /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 167 行.
+NOTIC: [8] Undefined index: attr /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 170 行.
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 178 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `zml_ad` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zml_ad` WHERE ( type =1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zml_item` [ RunTime:0.0012s ]
+NOTIC: [2] Illegal string offset 'a.isdel' /home/wwwroot/zhongchou.com/App/User/Model/ItemModel.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `zml_item` [ RunTime:0.0011s ]
+SQL: SELECT a.*,a.id as id,c.id as cid,c.name as progress_name,d.uin,d.name as user_name,d.header as user_header,e.id as eid,e.name as category_name FROM zml_item as a LEFT JOIN zml_item_progress as c ON a.progress = c.id LEFT JOIN zml_user as d ON a.uin = d.uin LEFT JOIN zml_item_category as e ON a.cid = e.id  WHERE ( a.status =1 AND a.progress =1 AND a.end_time >1495196411 AND a.isdel = 0 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: 
+INFO: 
+INFO: 
+

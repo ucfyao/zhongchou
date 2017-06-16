@@ -1,0 +1,104 @@
+[ 2016-12-30T03:27:50+08:00 ] 140.205.201.30 /install/images/default/top1_r.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 16 行.
+
+[ 2016-12-30T03:28:11+08:00 ] 140.205.201.30 /install/images/install-step1-en_us.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 16 行.
+
+[ 2016-12-30T03:28:19+08:00 ] 140.205.201.30 /install/images/guide_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 16 行.
+
+[ 2016-12-30T03:28:22+08:00 ] 140.205.201.30 /install/images/bg-cmstop.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 16 行.
+
+[ 2016-12-30T03:28:25+08:00 ] 140.205.201.30 /install/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载控制器:Style.css
+
+[ 2016-12-30T03:28:28+08:00 ] 140.205.201.30 /install/images/header-corners.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 16 行.
+
+[ 2016-12-30T07:40:25+08:00 ] 140.205.225.185 /install/images/default/top1_r.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 16 行.
+
+[ 2016-12-30T07:40:46+08:00 ] 140.205.225.185 /install/images/install-step1-en_us.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 16 行.
+
+[ 2016-12-30T07:40:54+08:00 ] 140.205.225.185 /install/images/guide_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 16 行.
+
+[ 2016-12-30T07:40:57+08:00 ] 140.205.225.185 /install/images/bg-cmstop.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 16 行.
+
+[ 2016-12-30T07:41:00+08:00 ] 140.205.225.185 /install/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 16 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+ERR: 无法加载控制器:Style.css
+
+[ 2016-12-30T07:41:03+08:00 ] 140.205.225.185 /install/images/header-corners.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 14 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 15 行.
+NOTIC: [8] Use of undefined constant ENV_PRE - assumed 'ENV_PRE' /home/wwwroot/zhongchou.com/App/Install/Conf/config.php 第 16 行.
+

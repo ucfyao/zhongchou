@@ -1,0 +1,12 @@
+[ 2017-04-14T19:34:21+08:00 ] 140.205.201.39 /index.php?m=member&c=index&a=register&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+ERR: 无法加载模块:Member
+
+[ 2017-04-14T19:34:22+08:00 ] 140.205.201.39 /index.php?m=wap&a=index&siteid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+ERR: 无法加载模块:Wap
+

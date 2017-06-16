@@ -1,0 +1,248 @@
+[ 2016-11-19T04:58:10+08:00 ] 66.249.73.128 /User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `zml_user` [ RunTime:0.0011s ]
+SQL: SELECT r.status as rstatus,u.uin,u.name,u.phone,u.create_time,u.money,u.points,u.age,u.sex,u.province,u.city,u.area,u.address,u.header,c.name as cityname,p.name as provname,a.name as areaname FROM zml_user u LEFT JOIN zml_region p ON  p.id=u.province LEFT JOIN zml_region c ON  c.id=u.city LEFT JOIN zml_region a ON  a.id=u.area LEFT JOIN zml_user_attest r ON r.uin=u.uin  WHERE u.uin = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant j - assumed 'j' /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: data /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `zml_item_collect` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zml_item_collect` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1477929600 AND a.time < 1478015999  ) AND a.uin = null LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: collect_item /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `zml_item_with_order` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zml_item_with_order` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1477929600 AND a.create_time < 1478015999  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: with_item /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `zml_item_interview` [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `zml_item_interview` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1477929600 AND a.time < 1478015999  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: interview /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `zml_user_money_details` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zml_user_money_details` [ RunTime:0.0007s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1477929600 AND a.create_time < 1478015999  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: inmoney /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php 第 29 行.
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1477929600 AND a.create_time < 1478015999  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: outmoney /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php 第 30 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478016000 AND a.time < 1478102399  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1478016000 AND a.create_time < 1478102399  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478016000 AND a.time < 1478102399  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478016000 AND a.create_time < 1478102399  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478016000 AND a.create_time < 1478102399  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478102400 AND a.time < 1478188799  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1478102400 AND a.create_time < 1478188799  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478102400 AND a.time < 1478188799  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478102400 AND a.create_time < 1478188799  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478102400 AND a.create_time < 1478188799  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478188800 AND a.time < 1478275199  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1478188800 AND a.create_time < 1478275199  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478188800 AND a.time < 1478275199  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478188800 AND a.create_time < 1478275199  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478188800 AND a.create_time < 1478275199  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478275200 AND a.time < 1478361599  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1478275200 AND a.create_time < 1478361599  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478275200 AND a.time < 1478361599  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478275200 AND a.create_time < 1478361599  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478275200 AND a.create_time < 1478361599  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478361600 AND a.time < 1478447999  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1478361600 AND a.create_time < 1478447999  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478361600 AND a.time < 1478447999  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478361600 AND a.create_time < 1478447999  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478361600 AND a.create_time < 1478447999  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478448000 AND a.time < 1478534399  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1478448000 AND a.create_time < 1478534399  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478448000 AND a.time < 1478534399  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478448000 AND a.create_time < 1478534399  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478448000 AND a.create_time < 1478534399  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478534400 AND a.time < 1478620799  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1478534400 AND a.create_time < 1478620799  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478534400 AND a.time < 1478620799  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478534400 AND a.create_time < 1478620799  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478534400 AND a.create_time < 1478620799  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478620800 AND a.time < 1478707199  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1478620800 AND a.create_time < 1478707199  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478620800 AND a.time < 1478707199  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478620800 AND a.create_time < 1478707199  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478620800 AND a.create_time < 1478707199  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478707200 AND a.time < 1478793599  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1478707200 AND a.create_time < 1478793599  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478707200 AND a.time < 1478793599  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478707200 AND a.create_time < 1478793599  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478707200 AND a.create_time < 1478793599  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478793600 AND a.time < 1478879999  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1478793600 AND a.create_time < 1478879999  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478793600 AND a.time < 1478879999  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478793600 AND a.create_time < 1478879999  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478793600 AND a.create_time < 1478879999  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478880000 AND a.time < 1478966399  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1478880000 AND a.create_time < 1478966399  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478880000 AND a.time < 1478966399  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478880000 AND a.create_time < 1478966399  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478880000 AND a.create_time < 1478966399  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478966400 AND a.time < 1479052799  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1478966400 AND a.create_time < 1479052799  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1478966400 AND a.time < 1479052799  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478966400 AND a.create_time < 1479052799  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1478966400 AND a.create_time < 1479052799  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1479052800 AND a.time < 1479139199  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1479052800 AND a.create_time < 1479139199  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1479052800 AND a.time < 1479139199  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1479052800 AND a.create_time < 1479139199  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1479052800 AND a.create_time < 1479139199  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1479139200 AND a.time < 1479225599  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1479139200 AND a.create_time < 1479225599  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1479139200 AND a.time < 1479225599  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1479139200 AND a.create_time < 1479225599  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1479139200 AND a.create_time < 1479225599  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1479225600 AND a.time < 1479311999  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1479225600 AND a.create_time < 1479311999  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1479225600 AND a.time < 1479311999  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1479225600 AND a.create_time < 1479311999  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1479225600 AND a.create_time < 1479311999  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1479312000 AND a.time < 1479398399  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1479312000 AND a.create_time < 1479398399  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1479312000 AND a.time < 1479398399  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1479312000 AND a.create_time < 1479398399  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1479312000 AND a.create_time < 1479398399  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1479398400 AND a.time < 1479484799  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1479398400 AND a.create_time < 1479484799  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1479398400 AND a.time < 1479484799  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1479398400 AND a.create_time < 1479484799  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1479398400 AND a.create_time < 1479484799  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_collect as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1479484800 AND a.time < 1479571199  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_with_order as a WHERE ( a.create_time > 1479484800 AND a.create_time < 1479571199  ) AND a.uin = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for User\Model\ItemInterviewModel::countList(), called in /home/wwwroot/zhongchou.com/App/User/Controller/IndexController.class.php on line 28 and defined /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 51 行.
+NOTIC: [8] Undefined variable: count /home/wwwroot/zhongchou.com/App/User/Model/ItemInterviewModel.class.php 第 55 行.
+SQL: SELECT COUNT(*) AS tp_count FROM zml_item_interview as a LEFT JOIN zml_item b ON a.itemid = b.id  WHERE ( a.time > 1479484800 AND a.time < 1479571199  ) AND a.uin = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1479484800 AND a.create_time < 1479571199  ) AND a.uin = null AND `type` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(money) AS tp_sum FROM zml_user_money_details as a WHERE ( a.create_time > 1479484800 AND a.create_time < 1479571199  ) AND a.uin = null AND `type` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zml_user` [ RunTime:0.0009s ]
+SQL: SELECT `money` FROM `zml_user` WHERE `uin` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: num /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 133 行.
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 140 行.
+NOTIC: [8] Undefined variable: limit /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 153 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 179 行.
+NOTIC: [8] Use of undefined constant index - assumed 'index' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 179 行.
+NOTIC: [8] Use of undefined constant Item - assumed 'Item' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 185 行.
+NOTIC: [8] Use of undefined constant Item - assumed 'Item' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 189 行.
+NOTIC: [8] Use of undefined constant Lead - assumed 'Lead' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 193 行.
+NOTIC: [8] Use of undefined constant Item - assumed 'Item' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 197 行.
+NOTIC: [8] Use of undefined constant Investor - assumed 'Investor' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 205 行.
+NOTIC: [8] Use of undefined constant Investor - assumed 'Investor' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 207 行.
+NOTIC: [8] Use of undefined constant Investor - assumed 'Investor' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 209 行.
+NOTIC: [8] Use of undefined constant Investor - assumed 'Investor' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 211 行.
+NOTIC: [8] Use of undefined constant Funds - assumed 'Funds' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 219 行.
+NOTIC: [8] Use of undefined constant Funds - assumed 'Funds' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 221 行.
+NOTIC: [8] Use of undefined constant Prepaid - assumed 'Prepaid' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 223 行.
+NOTIC: [8] Use of undefined constant Attest - assumed 'Attest' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 231 行.
+NOTIC: [8] Use of undefined constant Info - assumed 'Info' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 233 行.
+NOTIC: [8] Use of undefined constant Dolog - assumed 'Dolog' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 235 行.
+NOTIC: [2] Missing argument 1 for doLog(), called in /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php on line 235 and defined /home/wwwroot/zhongchou.com/App/Common/Common/function.php 第 162 行.
+SQL: SHOW COLUMNS FROM `zml_user_do_log` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `zml_user_do_log` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM zml_user_do_log as a WHERE `uin` = null AND `status` = 0 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant Bank - assumed 'Bank' /home/wwwroot/zhongchou.com/Runtime/Cache/User/ba6fe9656d017f718cbb1cbe2bdb8d07.php 第 237 行.
+SQL: SHOW COLUMNS FROM `zml_nav` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `zml_nav` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zml_nav` WHERE ( status =1 AND type =2 AND pid =0 ) ORDER BY time desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 1 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 3 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 5 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 7 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 8 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 9 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000119s ]
+
+[ 2016-11-19T04:58:11+08:00 ] 66.249.73.128 /index.php/User/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: num /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 133 行.
+NOTIC: [8] Undefined variable: w /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 140 行.
+NOTIC: [8] Undefined variable: limit /home/wwwroot/zhongchou.com/App/TagLib/Zml.class.php 第 153 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `zml_nav` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `zml_nav` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zml_nav` WHERE ( status =1 AND type =2 AND pid =0 ) ORDER BY time desc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 1 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 3 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 5 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 7 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 8 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zml_nav` WHERE `pid` = 9 ORDER BY time desc LIMIT 10   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+
+[ 2016-11-19T12:45:56+08:00 ] 220.181.108.184 /index.php/User/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `zml_user` [ RunTime:0.0011s ]
+SQL: SELECT r.status as rstatus,u.uin,u.name,u.phone,u.create_time,u.money,u.points,u.age,u.sex,u.province,u.city,u.area,u.address,u.header,c.name as cityname,p.name as provname,a.name as areaname FROM zml_user u LEFT JOIN zml_region p ON  p.id=u.province LEFT JOIN zml_region c ON  c.id=u.city LEFT JOIN zml_region a ON  a.id=u.area LEFT JOIN zml_user_attest r ON r.uin=u.uin  WHERE u.uin = null LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:login
+

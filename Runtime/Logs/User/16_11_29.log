@@ -1,0 +1,11 @@
+[ 2016-11-29T15:29:17+08:00 ] 157.55.39.95 /index.php/User/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `zml_user` [ RunTime:0.0012s ]
+SQL: SELECT r.status as rstatus,u.uin,u.name,u.phone,u.create_time,u.money,u.points,u.age,u.sex,u.province,u.city,u.area,u.address,u.header,c.name as cityname,p.name as provname,a.name as areaname FROM zml_user u LEFT JOIN zml_region p ON  p.id=u.province LEFT JOIN zml_region c ON  c.id=u.city LEFT JOIN zml_region a ON  a.id=u.area LEFT JOIN zml_user_attest r ON r.uin=u.uin  WHERE u.uin = null LIMIT 1   [ RunTime:0.0216s ]
+ERR: 非法操作:login
+

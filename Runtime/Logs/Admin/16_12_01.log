@@ -1,0 +1,50 @@
+[ 2016-12-01T19:36:34+08:00 ] 121.42.0.85 /admin/image/menu_h4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+
+[ 2016-12-01T19:36:46+08:00 ] 121.42.0.85 /Admin/Images/GoogleSiteMaplogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+
+[ 2016-12-01T19:36:48+08:00 ] 121.42.0.85 /admin/images/admintitlebg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+
+[ 2016-12-01T19:37:18+08:00 ] 121.42.0.85 /admin/images/login/login_submit.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+
+[ 2016-12-01T19:37:26+08:00 ] 121.42.0.85 /admin/images/netgather_com.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+
+[ 2016-12-01T19:37:51+08:00 ] 121.42.0.85 /Admin/Images/RectNoColor.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2016-12-01T19:37:52+08:00 ] 121.42.0.85 /admin/skins/images/ads_set3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+
+[ 2016-12-01T19:37:55+08:00 ] 121.42.0.85 /admin/images/loadingAnimation.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+
+[ 2016-12-01T19:38:01+08:00 ] 121.42.0.85 /admin/images/arrow_right_8x8.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+
+[ 2016-12-01T19:38:08+08:00 ] 121.42.0.85 /Admin/images/install_lines.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+

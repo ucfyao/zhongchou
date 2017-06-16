@@ -1,0 +1,240 @@
+[ 2016-11-15T19:16:46+08:00 ] 117.136.0.177 /index.php?m=ydzn&c=zdyd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+ERR: 无法加载模块:Ydzn
+
+[ 2016-11-15T19:22:43+08:00 ] 58.247.243.74 /index.php?m=goods&c=index&a=detail&sku_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T19:23:45+08:00 ] 203.208.60.199 /index.php?m=goods&c=index&a=detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T19:24:01+08:00 ] 68.180.230.118 /index.php?m=goods&c=index&a=lists&id=2&sort=hits,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T19:38:31+08:00 ] 180.76.15.12 /index.php?m=goods&c=index&a=detail&sku_id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T19:59:40+08:00 ] 203.208.60.201 /index.php?m=member&c=public&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T20:24:41+08:00 ] 68.180.229.46 /index.php?m=member&c=order&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T20:34:35+08:00 ] 123.125.71.109 /index.php?m=member&c=public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T21:48:33+08:00 ] 68.180.229.46 /index.php?m=misc&c=index&a=article_lists&category_id=all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+ERR: 无法加载模块:Misc
+
+[ 2016-11-15T22:04:07+08:00 ] 203.208.60.238 /index.php?m=member&c=public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T22:13:32+08:00 ] 203.208.60.238 /index.php?m=goods&c=index&a=lists&id=1&price=1,0&sort=hits,&attr%5Batt_1%5D=6YCJ55So5Zub5bqn6L2m&attr%5Bspec_1%5D=5Zub5bqn&attr%5Batt_3%5D=6YO96YCJ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T22:20:31+08:00 ] 182.118.25.210 /index.php?a=lists&attr[att_5]=57_b76K_bR&c=index&id=3&m=goods&sort=shop_price,desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T22:29:39+08:00 ] 182.118.20.225 /index.php?a=index&c=index&m=member
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T22:30:38+08:00 ] 182.118.25.216 /index.php?a=lists&attr%5Batt_5%5D=57_b76K_bR&attr%5Batt_6%5D=5Zyw6Zmq&attr%5Batt_7%5D=5YWo56iL&c=index&id=3&m=goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T22:33:58+08:00 ] 148.251.244.204 /index.php?m=goods&c=search&a=search&keyword=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T22:34:05+08:00 ] 148.251.244.204 /index.php?m=member&c=favorite&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T22:34:25+08:00 ] 148.251.244.204 /index.php?m=member&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T22:34:35+08:00 ] 148.251.244.204 /index.php?m=member&c=order&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T22:34:42+08:00 ] 148.251.244.204 /index.php?m=member&c=order&a=index&type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T22:35:28+08:00 ] 148.251.244.204 /index.php?m=member&c=order&a=index&type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T22:35:41+08:00 ] 148.251.244.204 /index.php?m=member&c=public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T22:36:02+08:00 ] 148.251.244.204 /index.php?m=member&c=public&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T22:36:11+08:00 ] 148.251.244.204 /index.php?m=misc&c=index&a=article_lists&category_id=all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载模块:Misc
+
+[ 2016-11-15T22:36:31+08:00 ] 148.251.244.204 /index.php?m=order&c=cart&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+ERR: 无法加载模块:Order
+
+[ 2016-11-15T22:36:53+08:00 ] 148.251.244.204 /index.php?m=ydzn&c=zdyd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+ERR: 无法加载模块:Ydzn
+
+[ 2016-11-15T22:39:05+08:00 ] 216.244.66.238 /index.php?m=goods&c=index&a=lists&id=3&attr[att_6]=5Zyw6Zmq&attr[spec_3]=5a_b85ri4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T22:39:05+08:00 ] 216.244.66.238 /index.php?m=goods&c=index&a=lists&id=3&attr[att_6]=5Zyw6Zmq&attr[spec_3]=5a_b85ri4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T22:39:29+08:00 ] 216.244.66.238 /index.php?m=goods&c=index&a=lists&id=3&sort=sale,&attr[att_7]=5YWo56iL&attr[spec_3]=5a_b85ri4&brand_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T22:39:40+08:00 ] 216.244.66.238 /index.php?m=goods&c=index&a=lists&id=3&sort=sale,&attr[att_7]=5YWo56iL&attr[spec_3]=5a_b85ri4&brand_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T22:40:01+08:00 ] 216.244.66.238 /index.php?m=goods&c=index&a=lists&id=3&attr[att_7]=5YWo56iL&attr[spec_3]=5a_b85ri4&brand_id=2&sort=comper,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T22:40:02+08:00 ] 216.244.66.238 /index.php?m=goods&c=index&a=lists&id=3&attr[att_7]=5YWo56iL&attr[spec_3]=5a_b85ri4&brand_id=2&sort=comper,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T22:40:23+08:00 ] 216.244.66.238 /index.php?m=goods&c=index&a=lists&id=3&brand_id=2&attr[att_6]=5Zyw6Zmq&attr[spec_3]=57_b76K_bR
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T22:40:24+08:00 ] 216.244.66.238 /index.php?m=goods&c=index&a=lists&id=3&brand_id=2&attr[att_6]=5Zyw6Zmq&attr[spec_3]=57_b76K_bR
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T22:41:00+08:00 ] 216.244.66.238 /index.php?m=goods&c=index&a=lists&id=3&sort=hits,&attr[att_5]=57_b76K_bR&attr[att_6]=5Zyw6Zmq&attr[spec_3]=5a_b85ri4&attr[att_7]=5YWo56iL&brand_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T22:41:02+08:00 ] 216.244.66.238 /index.php?m=goods&c=index&a=lists&id=3&sort=hits,&attr[att_5]=57_b76K_bR&attr[att_6]=5Zyw6Zmq&attr[spec_3]=5a_b85ri4&attr[att_7]=5YWo56iL&brand_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T23:16:48+08:00 ] 68.180.229.46 /index.php?m=member&c=public&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T23:23:27+08:00 ] 68.180.230.118 /index.php?m=member&c=public&a=login&url_forward=%252Findex.php%253Fm%253Dmember%2526c%253Dfavorite%2526a%253Dindex
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+ERR: 无法加载模块:Member
+
+[ 2016-11-15T23:49:00+08:00 ] 182.118.25.230 /index.php?a=lists&attr[att_6]=5Zyw6Zmq&attr[spec_3]=5a_b85ri4&c=index&id=3&m=goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T23:55:10+08:00 ] 182.118.25.230 /index.php?a=lists&attr[spec_3]=5a_b85ri4&brand_id=2&c=index&id=3&m=goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-11-15T23:58:29+08:00 ] 203.208.60.235 /index.php?m=goods&c=index&a=lists&id=1&attr%5Batt_3%5D=6YO96YCJ&attr%5Batt_1%5D=6YCJ55So5Zub5bqn6L2m&brand_id=1&sort=sale,
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:Goods
+

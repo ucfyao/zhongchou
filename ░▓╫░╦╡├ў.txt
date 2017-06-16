@@ -1,0 +1,14 @@
+欢迎使用芝麻乐开源众筹系统bate1.0 厂家官网www.zhimale.com
+
+本系统要求php5.3以上
+请先配置伪静态规则 
+apache .htaccess伪静态文件在根目录 
+nginx  nginx.conf伪静态文件在根目录
+安装方法
+直接运行，根据提示一步步简单安装即可，后台默认账号密码 admin admin123
+
+图解安装 https://zhimale.com/News/show/id/8.html
+如果您遇到问题，请加qq群 433600581
+
+如果出现以下问题
+出现 Unknown table engine 'InnoDB' 错误请阅读 https://www.zhimale.com/News/show/id/9.html
